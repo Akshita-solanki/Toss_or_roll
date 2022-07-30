@@ -33,6 +33,19 @@ img {
 .card-item {
     background-color: #DCD7C9;
     text-align: center;
+    
+  
+@media (max-width: 720px) {
+    .card-item {
+        width: 14rem;
+        margin: 1rem;
+        padding: 1rem;
+    }
+
+    img {
+        width: 10rem;
+    }
+}
     padding: 1.5rem;
     border-radius: 2rem;
     margin: 2rem;
