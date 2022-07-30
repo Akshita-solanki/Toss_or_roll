@@ -100,3 +100,15 @@ img {
         transform: rotate(8deg);
     }
 }
+
+@media (max-width: 720px) {
+    .card-item {
+        width: 14rem;
+        margin: 1rem;
+        padding: 1rem;
+    }
+
+    img {
+        width: 10rem;
+    }
+}
