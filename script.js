@@ -15,7 +15,7 @@ function coin() {
     }
     console.log(randomNumber1);
 }
-coin();
+
 
 function roll() {
     const faces = ["images/one.png", "images/two.png", "images/three.png", "images/four.png", "images/five.png", "images/six.png"];
@@ -26,5 +26,5 @@ function roll() {
     h1.innerHTML = "Its " + Numberr + " !";
     console.log(randomNumber1);
 }
-roll();
+
 
